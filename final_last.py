@@ -14,7 +14,7 @@ import time
 while True:
     message = "ボタンを押すと20秒間録画します、ワークを回してください"
     title = "ビデオ"
-    image = "1.png"              #message logo 
+    image = "1.png"              #message logo                      \\\\\\\\\\\\\\\\\\\\\\\\\\\step 1///////////////////////////////////
     choices = ["ビデオ録画開始"]
     # print Message box for csv data recording
     reply = buttonbox(message, title, image=image, choices=choices)
@@ -22,7 +22,7 @@ while True:
             
             def save_webcam(outPath,fps,mirror=False):
                 # Capturing video from webcam: webcan bumber(0.1.2...)
-                cap = cv2.VideoCapture(0)
+                cap = cv2.VideoCapture(0)                             \\\\\\\\\\\\\\\\\\\\\\\\\\\ step 2///////////////////////////////////
                 frame_size = (int(cap.set(cv2.CAP_PROP_FRAME_WIDTH,1280)), # You can change the resolution of the camera to one that the camera supports.
                               int(cap.set(cv2.CAP_PROP_FRAME_HEIGHT,720))) # You can change the resolution of the camera to one that the camera supports.
                 print (frame_size)
@@ -99,8 +99,8 @@ while True:
                 #workfilename = "screenshot"
                 workfilename = str(now)
             
-            
-                save_webcam('NG_RECORD/'+workfilename+'output.avi', 30 ,mirror=True)
+            		
+                save_webcam('NG_RECORD/'+workfilename+'output.avi', 30 ,mirror=True)    ///////////////////////step 3\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                         
             if __name__ == '__main__':
                main()
