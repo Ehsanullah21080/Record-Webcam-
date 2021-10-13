@@ -5,13 +5,13 @@ Many of you may think about how to take videos from webcam and save it in the di
 So here, I am going to tell you how to capture and save webcam video in Python using OpenCV.
 
 step one:
-pip install easygui
+(pip install easygui)
 step two:
-pip install opencv-python
+(pip install opencv-python)
 step three:
-pip install DateTime
+(pip install DateTime)
 step four:
-pip install python-time
+(pip install python-time)
 
 Run..
 with spyder or any other IDE.(https://www.spyder-ide.org/)
