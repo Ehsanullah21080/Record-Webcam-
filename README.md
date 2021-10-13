@@ -15,3 +15,5 @@ step four:
 
 Run..
 with spyder or any other IDE.(https://www.spyder-ide.org/)
+
+Note: Don't forget to change the .py file to the same directory as your PC.
